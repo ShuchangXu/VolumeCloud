@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cloud
+  m_Shader: {fileID: 4800000, guid: 8e1d7f9429c3e49aca548f2ac85b535e, type: 3}
+  m_ShaderKeywords: _APPLYDIFFUSE_ON _APPLYSHADOW_ON _APPLYSSS_ON _APPLYVIEWBRIGHTEN_ON
+    _ISTOGGLED_ON _SHOWDIFFUSE_ON _SHOWSSS_ON _SHOWVIEWBRIGHTEN_ON _USE3DNOISE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _2DNoise:
+        m_Texture: {fileID: 2800000, guid: 4fc8578dbfa02c94fb44da4d7b155ead, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _3DNoise:
+        m_Texture: {fileID: 11700000, guid: 4ed99a7ccafd728408a1bd580f472384, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ApplyDiffuse: 1
+    - _ApplySSS: 1
+    - _ApplyShadow: 1
+    - _ApplyViewBrighten: 1
+    - _BlendIntensity: 0
+    - _BumpScale: 1
+    - _ClipThres: 0.9025
+    - _Cutoff: 0.5
+    - _DepthContrast: 0.34
+    - _DetailNormalMapScale: 1
+    - _DiffuseContrast: 2
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.68
+    - _GlossyReflections: 1
+    - _Metallic: 1
+    - _Mode: 0
+    - _NoiseTiling: 2.2
+    - _OccludeeVisibility: 0.35
+    - _OccludeeVisibleRange: 0.6
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PosOffset: 0.1235
+    - _SSSContrast: 1
+    - _SSSIntensity: 0.58
+    - _SSSRange: 1
+    - _SSSscale: 0.1
+    - _Shininess: 0.7
+    - _ShowDepthDiff: 0
+    - _ShowDepthOnly: 0
+    - _ShowDiffuse: 1
+    - _ShowLayerOnly: 0
+    - _ShowMixFactor: 0
+    - _ShowNoiseOnly: 0
+    - _ShowOccludeeDepth: 0
+    - _ShowSSS: 1
+    - _ShowSelfDepth: 0
+    - _ShowShadowOnly: 0
+    - _ShowViewBrighten: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UVSpeed: 0.12
+    - _Use3DNoise: 1
+    - _ViewBrightenContrast: 1.7
+    - _ViewBrightenIntensity: 0.12
+    - _ZWrite: 1
+    - _isToggled: 1
+    - _use3DNoise: 1
+    m_Colors:
+    - _BrightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.7924528, g: 0.76259863, b: 0.5719116, a: 0.0627451}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowColor: {r: 0.20901564, g: 0.5583709, b: 0.7264151, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
