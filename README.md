@@ -4,11 +4,15 @@
 
 ### 基本思路：对mesh的顶点进行多层偏移，采样3D Perlin Noise
 
+
+
 多层偏移：突出体积感
 
 采样3D Perlin Noise：突出云朵的絮状质感
 
 https://flafla2.github.io/2014/08/09/perlinnoise.html
+
+思路参考：[walkingfat的博文](http://walkingfat.com/bump-noise-cloud-3d噪点gpu-instancing制作基于模型的体积云/)
 
 
 
