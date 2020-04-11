@@ -766,7 +766,7 @@ https://forum.unity.com/threads/commandbuffer-blit-with-no-custom-shader-command
 
 ###### 自行计算d：要处理平台差异
 
-具体处理方式参考 [深度及其平台差异.pdf](深度及其平台差异.pdf)
+具体处理方式参考 [深度及其平台差异.pdf](多层云朵渲染及相关技术.assets/深度及其平台差异.pdf)
 
 ###### 自行计算$|Z_{view}|$和$|Z_{01}|$
 
